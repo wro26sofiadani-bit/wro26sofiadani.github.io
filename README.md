@@ -1,95 +1,170 @@
-# 🤖 Azzaiteros C15
+# Azzaiteros C15
 
-
-> *"Si funciona, no se toca"* 🔧
-
----
-
-#  ¿Quiénes somos?
-
-Somos **Azzaiteros C15**, un equipo formado por dos estudiantes del instituto **Az-Zait de Jaén**, apasionados por la robótica, la electrónica y la programación.
-
-Nuestro objetivo al participar en **Future Engineers 2026 (WRO)** es aprender desde cero cómo diseñar, construir y programar un vehículo autónomo aplicando principios reales de ingeniería.
+"Si funciona, no se toca"
 
 ---
 
-#  Integrantes
+# 1. DISEÑO Y ESTRUCTURA
 
-### Daniel
-🛠 Responsable principal del robot y desarrollo técnico.
+Somos Azzaiteros C15, un equipo formado por estudiantes del instituto Az-Zait de Jaén, que participa en la competición WRO Future Engineers 2026.
 
-### Sofía
-📝 Escritora principal y editora de la documentación.
+El objetivo principal del proyecto es diseñar y construir un vehículo autónomo desde cero, aplicando principios reales de ingeniería.
 
----
+## Objetivo del diseño
 
-#  Objetivo
+El robot está pensado para:
 
-El reto consiste en diseñar y programar un vehículo completamente autónomo capaz de desplazarse sin intervención humana.
+- Cumplir las restricciones oficiales de la competición  
+- Ser estable en movimiento  
+- Tener una distribución de peso equilibrada  
+- Facilitar el mantenimiento y reparación  
+- Permitir mejoras modulares  
 
-El robot debe:
+## Chasis
 
-✅ Navegar de forma estable  
-✅ Detectar y esquivar obstáculos  
-✅ Adaptarse a cambios aleatorios del circuito  
-✅ Trabajar de forma eficiente y autónoma  
-✅ Tener documentación clara y reproducible  
+El robot, llamado “Leotardo”, ha evolucionado desde estructuras básicas hasta un chasis modular impreso en PLA.
 
----
+Características del diseño:
 
-#  El reto Future Engineers 2026
+- Estructura de doble placa (superior e inferior)  
+- Uniones mediante barras metálicas  
+- Soportes integrados en el propio diseño CAD  
+- Acceso sencillo a componentes internos  
+- Optimización de espacio y peso  
 
-La competición pone a prueba un coche autónomo en circuitos aleatorios donde debe reaccionar a diferentes situaciones.
+## Restricciones del diseño
 
-Existen dos fases principales:
+El robot debe cumplir:
 
-### Open Challenge
-El vehículo debe completar vueltas al circuito evitando errores y adaptándose a cambios en la pista.
-
-### Obstacle Challenge
-Se añaden obstáculos y señales de colores:
-
-🟢 Verde → se esquiva por la izquierda  
-🔴 Rojo → se esquiva por la derecha  
-
-Al final, el coche debe realizar un **aparcamiento autónomo**.
+- 300 × 200 × 300 mm máximo  
+- 1.5 kg de peso máximo  
+- 4 ruedas obligatorias  
+- Sin control remoto  
 
 ---
 
-#  Nuestro trabajo
+# 2. MECÁNICA
 
-Para la fase provincial dedicamos tiempo en recreos y tardes fuera del horario escolar.
+## Sistema de tracción
 
-Más adelante, también trabajamos durante las clases de **Robótica y Visión Artificial** y en verano continuamos el desarrollo tanto en el instituto como desde casa.
+- Motores TT con reductora en eje trasero  
+- Sincronización de ambos motores para trayectoria estable  
+- Transmisión directa sin pérdidas innecesarias  
 
----
+## Dirección
 
-#  Restricciones del robot
+- Servomotor MG996R de alta potencia  
+- Sistema de dirección en eje delantero  
+- Barra mecánica para giro de ruedas  
 
-El vehículo debe cumplir ciertas normas:
+## Ruedas
 
-- Tamaño máximo: **300 × 200 × 300 mm**
-- Peso máximo: **1,5 kg**
-- 4 ruedas obligatorias
-- Sin control remoto
-- Máximo:
-   - 2 motores de tracción
-   - 1 motor de dirección
+- Delanteras reutilizadas de sistema mecánico tipo Meccano  
+- Traseras adaptadas a motores TT  
+- Ajuste de altura para evitar desalineaciones  
 
----
+## Problemas y soluciones
 
-#  Evaluación
+Durante el montaje se detectaron interferencias en los motores con la base.
 
-La puntuación combina:
+Solución aplicada:
 
-| Categoría | Puntos |
-|-----------|---------|
-| Open Challenge | 30 |
-| Obstacle Challenge | 62 |
-| Ingeniería y documentación | 30 |
-
-**Puntuación máxima: 122 puntos**
+- Elevación mediante separadores estructurales  
+- Reajuste de la base para evitar fricción  
 
 ---
 
-⭐ Gracias por visitar nuestro proyecto
+# 3. ELECTRÓNICA
+
+## Unidades principales
+
+- Arduino UNO como controlador de bajo nivel  
+- Raspberry Pi 3 B+ como unidad de procesamiento principal  
+- Sensor Shield para distribución de conexiones  
+
+## Alimentación
+
+Sistema dividido en dos partes:
+
+- Lógica: Arduino y sensores  
+- Alto consumo: motores y Raspberry Pi  
+
+Baterías utilizadas:
+
+- 2 celdas Li-Ion 18650 en serie (7.4V)  
+- Powerbank independiente para Raspberry Pi  
+
+Motivo del cambio:
+
+Las baterías de 9V no proporcionaban suficiente corriente para los motores.
+
+## Driver de motores
+
+Se utiliza el TB6612FNG en lugar del L298N debido a:
+
+- Menor consumo energético  
+- Menor tamaño  
+- Mejor eficiencia térmica  
+- Mayor rendimiento en PWM  
+
+## Sensores
+
+- 3 sensores ultrasónicos HC-SR04  
+- Sensor central y dos laterales  
+- Sensor de inicio tipo joystick (botón)  
+
+---
+
+# 4. PROGRAMACIÓN
+
+## Arquitectura del sistema
+
+El sistema está dividido en dos niveles:
+
+- Raspberry Pi: decisiones principales  
+- Arduino: control directo de sensores y actuadores  
+
+## Funciones principales
+
+- Lectura de sensores ultrasónicos  
+- Control de dirección mediante servo  
+- Control de motores mediante driver TB6612FNG  
+- Comunicación entre Raspberry Pi y Arduino  
+- Sistema de espera de inicio mediante botón  
+
+## Lógica de navegación
+
+El robot está programado para:
+
+- Detectar obstáculos  
+- Calcular distancias en tiempo real  
+- Tomar decisiones de giro  
+- Mantener estabilidad en línea recta  
+- Ejecutar maniobras de esquiva  
+
+---
+
+# 5. CONCLUSIONES
+
+El desarrollo de este robot ha sido un proceso de aprendizaje continuo.
+
+A lo largo del proyecto:
+
+- Se han probado diferentes estructuras  
+- Se han rediseñado sistemas mecánicos  
+- Se han sustituido componentes electrónicos  
+- Se han optimizado decisiones de diseño  
+
+El resultado final es un sistema autónomo funcional, modular y preparado para competir en la categoría Future Engineers.
+
+Más allá de la competición, el proyecto ha permitido aprender:
+
+- Diseño mecánico real  
+- Electrónica aplicada  
+- Programación de sistemas embebidos  
+- Resolución de problemas técnicos  
+- Trabajo en equipo  
+
+---
+
+Fin del documento.
