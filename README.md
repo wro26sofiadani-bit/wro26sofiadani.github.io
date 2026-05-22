@@ -12,7 +12,9 @@
   <a href="./electronica">
     <img src="https://img.shields.io/badge/electronica-Ver-green">
   </a>
-</p># 1. DISEÑO Y ESTRUCTURA
+</p>
+
+# 1. DISEÑO Y ESTRUCTURA
 
 Somos Azzaiteros C15, un equipo formado por estudiantes del instituto Az-Zait de Jaén, que participa en la competición WRO Future Engineers 2026.
 
