@@ -155,7 +155,12 @@ El robot está programado para:
 - Calcular distancias en tiempo real  
 - Tomar decisiones de giro  
 - Mantener estabilidad en línea recta  
-- Ejecutar maniobras de esquiva  
+- Ejecutar maniobras de esquiva
+  
+<p align="center">
+  <a href="./programacion">
+    <img src="https://img.shields.io/badge/programacion-Ver más pulsar aquí-red">
+  </a>
 
 ---
 
@@ -178,7 +183,12 @@ Más allá de la competición, el proyecto ha permitido aprender:
 - Electrónica aplicada  
 - Programación de sistemas embebidos  
 - Resolución de problemas técnicos  
-- Trabajo en equipo  
+- Trabajo en equipo
+
+<p align="center">
+  <a href="./conclusiones">
+    <img src="https://img.shields.io/badge/conclusiones-Ver más pulsar aquí-orange">
+  </a>
 
 ---
 
