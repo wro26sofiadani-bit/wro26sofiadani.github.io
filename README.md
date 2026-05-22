@@ -43,7 +43,7 @@ El robot debe cumplir:
 
 <p align="center">
   <a href="./diseño y estructura">
-    <img src="https://img.shields.io/badge/diseño y estructura-Ver-blue">
+    <img src="https://img.shields.io/badge/diseño y estructura-Ver más pulsar aquí-blue">
   </a>
 
 ---
@@ -79,7 +79,7 @@ Solución aplicada:
  
 <p align="center">
   <a href="./mecanica">
-    <img src="https://img.shields.io/badge/mecanica-Ver más-yellow">
+    <img src="https://img.shields.io/badge/mecanica-Ver más pulsar aquí-yellow">
   </a>
 
 ---
@@ -121,7 +121,12 @@ Se utiliza el TB6612FNG en lugar del L298N debido a:
 
 - 3 sensores ultrasónicos HC-SR04  
 - Sensor central y dos laterales  
-- Sensor de inicio tipo joystick (botón)  
+- Sensor de inicio tipo joystick (botón)
+
+<p align="center">
+  <a href="./electronica">
+    <img src="https://img.shields.io/badge/electronica-Ver más pulsar aquí-yellow">
+  </a>
 
 ---
 
