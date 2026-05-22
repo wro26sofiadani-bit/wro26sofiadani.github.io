@@ -9,11 +9,6 @@
     <img src="https://img.shields.io/badge/diseño y estructura-Ver-blue">
   </a>
 
-  <a href="./electronica">
-    <img src="https://img.shields.io/badge/electronica-Ver-green">
-  </a>
-</p>
-
 # 1. DISEÑO Y ESTRUCTURA
 
 Somos Azzaiteros C15, un equipo formado por estudiantes del instituto Az-Zait de Jaén, que participa en la competición WRO Future Engineers 2026.
@@ -52,6 +47,10 @@ El robot debe cumplir:
 - Sin control remoto  
 
 ---
+  <a href="./mecanica">
+    <img src="https://img.shields.io/badge/mecanica-Ver más-yellow">
+  </a>
+</p>
 
 # 2. MECÁNICA
 
@@ -83,6 +82,11 @@ Solución aplicada:
 - Reajuste de la base para evitar fricción  
 
 ---
+  <a href="./electronica">
+    <img src="https://img.shields.io/badge/electronica-Ver-green">
+  </a>
+</p>
+
 
 # 3. ELECTRÓNICA
 
