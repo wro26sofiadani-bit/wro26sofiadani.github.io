@@ -1,6 +1,6 @@
 ---
 
-## 💻 Algoritmo y Objetivo del Programa Principal
+##  Algoritmo y Objetivo del Programa Principal
 
 Esta sección describe la lógica de control programada en el sistema para guiar de forma autónoma el desplazamiento del robot en la pista de pruebas.
 
@@ -8,7 +8,7 @@ Esta sección describe la lógica de control programada en el sistema para guiar
 > **Propósito Fundamental:** 
 > Conseguir que el robot mantenga una trayectoria recta constante mientras monitoriza activamente su entorno mediante la triangulación de los sensores de ultrasonido, evadiendo colisiones en tiempo real.
 
-### 🧠 Flujo de Toma de Decisiones (Evasión de Obstáculos)
+###  Flujo de Toma de Decisiones (Evasión de Obstáculos)
 
 El bucle principal del software ejecuta continuamente la siguiente secuencia lógica:
 
@@ -25,23 +25,23 @@ Gracias a este bucle de control de bucle cerrado, el robot es capaz de navegar d
 
 ---
 
-## 💻 Programación y Arquitectura del Firmware (Arduino)
+##  Programación y Arquitectura del Firmware (Arduino)
 
 El control de bajo nivel, la gestión de la potencia de los motores, el posicionamiento del servo y la lectura directa de los sensores están gestionados de forma dedicada por el **Arduino UNO R3**. El código se divide estructuralmente en tres bloques: **Configuración inicial, Subprogramas modulares y el Bucle principal**.
 
 ---
 
-### 🧱 1. Librerías, Variables Globales y Setup
+###  1. Librerías, Variables Globales y Setup
 
 En este bloque inicial cargamos las dependencias del sistema, mapeamos la distribución de pines y declaramos el espacio en memoria para las variables críticas de control.
 
-#### 📦 Librerías del Sistema
+####  Librerías del Sistema
 *   #include <Wire.h>: Habilita el bus de comunicaciones **I2C**, canal por el cual se conecta el sensor de orientación.
 *   #include <Adafruit_Sensor.h> & <Adafruit_BNO055.h> & <utility/imumaths.h>: Dependencias oficiales de Adafruit para realizar el control y álgebra vectorial del sensor de orientación **BNO055**.
 *   #include <Servo.h>: Librería para el control por modulación de ancho de pulso (PWM) del servomotor de dirección.
 *   #include <EEPROM.h>: Permite leer y escribir en la memoria no volátil del microcontrolador, reteniendo datos tras apagar el robot.
 
-#### 📊 Configuración de Variables y Mapeo de Pines
+####  Configuración de Variables y Mapeo de Pines
 
 ```arduino
 // ========== CONFIGURACIÓN BNO055 ==========
