@@ -79,7 +79,7 @@ Solución aplicada:
  
 <p align="center">
   <a href="./mecanica">
-    <img src="https://img.shields.io/badge/mecanica-Ver más pulsar aquí-yellow">
+    <img src="https://img.shields.io/badge/mecanica-Ver más pulsar aquí-green">
   </a>
 
 ---
