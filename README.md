@@ -5,7 +5,7 @@
 
 ---
 
-# 👥 ¿Quiénes somos?
+#  ¿Quiénes somos?
 
 Somos **Azzaiteros C15**, un equipo formado por dos estudiantes del instituto **Az-Zait de Jaén**, apasionados por la robótica, la electrónica y la programación.
 
@@ -13,7 +13,7 @@ Nuestro objetivo al participar en **Future Engineers 2026 (WRO)** es aprender de
 
 ---
 
-# 🚀 Integrantes
+#  Integrantes
 
 ### Daniel
 🛠 Responsable principal del robot y desarrollo técnico.
@@ -23,7 +23,7 @@ Nuestro objetivo al participar en **Future Engineers 2026 (WRO)** es aprender de
 
 ---
 
-# 🎯 Objetivo
+#  Objetivo
 
 El reto consiste en diseñar y programar un vehículo completamente autónomo capaz de desplazarse sin intervención humana.
 
@@ -37,7 +37,7 @@ El robot debe:
 
 ---
 
-# 🏆 El reto Future Engineers 2026
+#  El reto Future Engineers 2026
 
 La competición pone a prueba un coche autónomo en circuitos aleatorios donde debe reaccionar a diferentes situaciones.
 
@@ -56,7 +56,7 @@ Al final, el coche debe realizar un **aparcamiento autónomo**.
 
 ---
 
-# 📚 Nuestro trabajo
+#  Nuestro trabajo
 
 Para la fase provincial dedicamos tiempo en recreos y tardes fuera del horario escolar.
 
@@ -64,7 +64,7 @@ Más adelante, también trabajamos durante las clases de **Robótica y Visión A
 
 ---
 
-# ⚙️ Restricciones del robot
+#  Restricciones del robot
 
 El vehículo debe cumplir ciertas normas:
 
@@ -78,7 +78,7 @@ El vehículo debe cumplir ciertas normas:
 
 ---
 
-# 📊 Evaluación
+#  Evaluación
 
 La puntuación combina:
 
