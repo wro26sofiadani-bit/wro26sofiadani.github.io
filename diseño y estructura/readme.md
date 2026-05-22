@@ -65,3 +65,36 @@ Conectamos la **cámara** y el **botón** directamente a la Raspberry Pi.
 * **Daniel Bautista Cortijo:** Fotografías y montaje (Leotardo nacional, construcción, robot arriba, montaje ultras).
 * **Sofía Romero Luque:** Fotografías de alimentación (Pilas GIF) y motores.
 * *Licencia de imágenes: Creative Commons Zero (CC0).*
+
+
+
+---
+
+## ❓ ¿Por qué Leotardo es así?
+
+El diseño y la estructura final de **Leotardo** no fueron casualidad: el robot se construyó minuciosamente de esta manera para cumplir estrictamente con el **reglamento oficial de la competencia**. 
+
+Desde la fase de diseño en papel, el tamaño, el peso y la distribución de cada componente se calcularon para garantizar la homologación del robot sin sacrificar rendimiento.
+
+### 📋 Restricciones Técnicas Oficiales
+
+A continuación se detallan las normas clave que dieron forma a nuestro robot:
+
+| Parámetro | Límite Permitido | Estado de Leotardo |
+| :--- | :--- | :--- |
+| **📏 Dimensiones** | Máx. 300 x 200 x 300 mm | **Cumple** (Optimizado) |
+| **⚖️ Peso** | Máximo 1.5 Kilogramos | **Cumple** (Ligero) |
+
+---
+
+### 🔍 Especificaciones del Reglamento
+
+> [!NOTE]
+> **Dimensiones máximas del robot (Regla 10.1)**
+> *“El vehículo no puede superar los 300 mm de largo, 200 mm de ancho y 300 mm de alto.”*
+
+> [!WARNING]
+> **Peso máximo permitido (Regla 10.2)**
+> *“El peso del vehículo no puede superar los 1.5 kilogramos.”*
+
+Gracias a estas limitaciones, cada decisión —como la elección de materiales ligeros para el chasis y la distribución central de la batería— se tomó con el objetivo de exprimir al máximo el espacio disponible sin registrar penalizaciones.
