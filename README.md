@@ -4,11 +4,6 @@
 
 ---
 
-<p align="center">
-  <a href="./diseño y estructura">
-    <img src="https://img.shields.io/badge/diseño y estructura-Ver-blue">
-  </a>
-
 # 1. DISEÑO Y ESTRUCTURA
 
 Somos Azzaiteros C15, un equipo formado por estudiantes del instituto Az-Zait de Jaén, que participa en la competición WRO Future Engineers 2026.
@@ -44,13 +39,14 @@ El robot debe cumplir:
 - 300 × 200 × 300 mm máximo  
 - 1.5 kg de peso máximo  
 - 4 ruedas obligatorias  
-- Sin control remoto  
+- Sin control remoto
+
+<p align="center">
+  <a href="./diseño y estructura">
+    <img src="https://img.shields.io/badge/diseño y estructura-Ver-blue">
+  </a>
 
 ---
-  <a href="./mecanica">
-    <img src="https://img.shields.io/badge/mecanica-Ver más-yellow">
-  </a>
-</p>
 
 # 2. MECÁNICA
 
@@ -79,14 +75,14 @@ Durante el montaje se detectaron interferencias en los motores con la base.
 Solución aplicada:
 
 - Elevación mediante separadores estructurales  
-- Reajuste de la base para evitar fricción  
+- Reajuste de la base para evitar fricción
+ 
+<p align="center">
+  <a href="./mecanica">
+    <img src="https://img.shields.io/badge/mecanica-Ver más-yellow">
+  </a>
 
 ---
-  <a href="./electronica">
-    <img src="https://img.shields.io/badge/electronica-Ver-green">
-  </a>
-</p>
-
 
 # 3. ELECTRÓNICA
 
