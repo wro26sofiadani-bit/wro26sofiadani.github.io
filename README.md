@@ -1,89 +1,166 @@
 # 🤖 Azzaiteros C15
 
-
-> *"Si funciona, no se toca"* 🔧
-
----
-
-# 👥 ¿Quiénes somos?
-
-Somos **Azzaiteros C15**, un equipo formado por dos estudiantes del instituto **Az-Zait de Jaén**, apasionados por la robótica, la electrónica y la programación.
-
-Nuestro objetivo al participar en **Future Engineers 2026 (WRO)** es aprender desde cero cómo diseñar, construir y programar un vehículo autónomo aplicando principios reales de ingeniería.
+<p align="center">
+  <i>"Si funciona, no se toca"</i> 🔧
+</p>
 
 ---
 
-# 🚀 Integrantes
+#  Sobre nosotros
 
-### Daniel
-🛠 Responsable principal del robot y desarrollo técnico.
+Somos **Azzaiteros C15**, un equipo formado por estudiantes del instituto **Az-Zait de Jaén**, apasionados por la robótica, la programación y la electrónica.
 
-### Sofía
-📝 Escritora principal y editora de la documentación.
+Participamos en **WRO Future Engineers 2026**, una competición internacional donde desarrollamos un vehículo autónomo desde cero aplicando principios reales de ingeniería, diseño, visión artificial y resolución de problemas.
 
----
-
-# 🎯 Objetivo
-
-El reto consiste en diseñar y programar un vehículo completamente autónomo capaz de desplazarse sin intervención humana.
-
-El robot debe:
-
-✅ Navegar de forma estable  
-✅ Detectar y esquivar obstáculos  
-✅ Adaptarse a cambios aleatorios del circuito  
-✅ Trabajar de forma eficiente y autónoma  
-✅ Tener documentación clara y reproducible  
+Nuestro objetivo no es solo competir: buscamos aprender, experimentar y mejorar continuamente nuestro proyecto.
 
 ---
 
-# 🏆 El reto Future Engineers 2026
+#  Integrantes
 
-La competición pone a prueba un coche autónomo en circuitos aleatorios donde debe reaccionar a diferentes situaciones.
+| Miembro | Función |
+|----------|----------|
+| Daniel | 🛠 Responsable técnico y desarrollo del robot |
+| Sofía | 📝 Documentación, organización y edición |
 
-Existen dos fases principales:
+---
+
+#  Nuestro objetivo
+
+El reto consiste en construir un coche completamente autónomo capaz de:
+
+✅ Navegar sin ayuda humana  
+✅ Detectar obstáculos  
+✅ Adaptarse a circuitos aleatorios  
+✅ Tomar decisiones automáticamente  
+✅ Mantener estabilidad y precisión  
+✅ Documentar todo el proceso de desarrollo  
+
+---
+
+#  ¿Qué es Future Engineers?
+
+La categoría **Future Engineers** de la **World Robot Olympiad (WRO)** desafía a los equipos a diseñar y programar vehículos autónomos capaces de reaccionar a situaciones reales.
+
+La competición se divide en dos fases:
 
 ### Open Challenge
-El vehículo debe completar vueltas al circuito evitando errores y adaptándose a cambios en la pista.
+
+El robot debe completar vueltas de forma autónoma manteniendo estabilidad y evitando errores.
 
 ### Obstacle Challenge
-Se añaden obstáculos y señales de colores:
 
-🟢 Verde → se esquiva por la izquierda  
-🔴 Rojo → se esquiva por la derecha  
+El circuito incorpora obstáculos y señales:
 
-Al final, el coche debe realizar un **aparcamiento autónomo**.
+🟢 Verde → esquivar por la izquierda  
+🔴 Rojo → esquivar por la derecha  
 
----
-
-# 📚 Nuestro trabajo
-
-Para la fase provincial dedicamos tiempo en recreos y tardes fuera del horario escolar.
-
-Más adelante, también trabajamos durante las clases de **Robótica y Visión Artificial** y en verano continuamos el desarrollo tanto en el instituto como desde casa.
+Finalmente el vehículo debe realizar un **aparcamiento autónomo**.
 
 ---
 
-# ⚙️ Restricciones del robot
+# 🤖 Nuestro robot: "Leotardo"
 
-El vehículo debe cumplir ciertas normas:
+Leotardo es el resultado de meses de pruebas, rediseños y mejoras.
 
-- Tamaño máximo: **300 × 200 × 300 mm**
-- Peso máximo: **1,5 kg**
-- 4 ruedas obligatorias
-- Sin control remoto
-- Máximo:
-   - 2 motores de tracción
-   - 1 motor de dirección
+Su diseño fue desarrollado cuidadosamente para cumplir las restricciones oficiales y maximizar:
+
+- rendimiento
+- estabilidad
+- mantenimiento
+- distribución de peso
+- eficiencia energética
+
+Durante el desarrollo evolucionó desde estructuras simples hasta un **chasis modular impreso en 3D**, permitiendo mayor precisión y facilidad de reparación.
 
 ---
 
-# 📊 Evaluación
+#  Características principales
 
-La puntuación combina:
+Raspberry Pi + Arduino UNO  
+
+Alimentación independiente para lógica y potencia  
+
+Chasis modular impreso en PLA  
+
+Sensores ultrasónicos múltiples  
+
+Dirección mediante servomotor MG996R  
+
+Driver TB6612FNG de alta eficiencia  
+
+Diseño completamente desmontable y reparable
+
+---
+
+#  Nuestro proceso
+
+El desarrollo del robot no ocurrió únicamente durante las clases.
+
+Invertimos tiempo:
+
+- Recreos
+- Tardes fuera del horario escolar
+- Clases de Robótica y Visión Artificial
+- Trabajo desde casa
+- Desarrollo durante verano
+
+Cada prueba, error y mejora nos permitió evolucionar el proyecto.
+
+---
+
+#  Restricciones del reglamento
+
+El robot debe respetar:
+
+| Parámetro | Límite |
+|------------|----------|
+| Tamaño | 300×200×300 mm |
+| Peso | 1.5 kg |
+| Ruedas | 4 obligatorias |
+| Motores tracción | Máximo 2 |
+| Dirección | Máximo 1 motor |
+| Control remoto | No permitido |
+
+---
+
+#  Aspectos desarrollados
+
+A lo largo del proyecto trabajamos en:
+
+- Diseño CAD y modelado
+- Chasis modular
+- Gestión energética
+- Electrónica
+- Cableado
+- Programación
+- Visión artificial
+- Sensores
+- Sistema de dirección
+- Optimización estructural
+- Documentación técnica
+
+---
+
+#  Documentación del proyecto
+
+Toda la documentación detallada se encuentra organizada en secciones independientes:
+
+📌 Diseño del robot  
+📌 Proceso de montaje  
+📌 Hardware utilizado  
+📌 Sistema energético  
+📌 Programación  
+📌 Sensores  
+📌 Estrategias  
+📌 Mejoras y evolución  
+
+---
+
+#  Sistema de evaluación
 
 | Categoría | Puntos |
-|-----------|---------|
+|------------|---------|
 | Open Challenge | 30 |
 | Obstacle Challenge | 62 |
 | Ingeniería y documentación | 30 |
@@ -92,4 +169,10 @@ La puntuación combina:
 
 ---
 
-⭐ Gracias por visitar nuestro proyecto
+#  Gracias por visitar nuestro proyecto
+
+Seguimos aprendiendo, mejorando y construyendo.
+
+Porque la ingeniería también consiste en equivocarse, rediseñar... y volver a intentarlo.
+
+🤖
