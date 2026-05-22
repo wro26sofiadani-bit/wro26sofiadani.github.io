@@ -98,3 +98,37 @@ A continuación se detallan las normas clave que dieron forma a nuestro robot:
 > *“El peso del vehículo no puede superar los 1.5 kilogramos.”*
 
 Gracias a estas limitaciones, cada decisión —como la elección de materiales ligeros para el chasis y la distribución central de la batería— se tomó con el objetivo de exprimir al máximo el espacio disponible sin registrar penalizaciones.
+
+
+
+---
+
+## 📐 Diseño y Toma de Decisiones
+
+El desarrollo de **Leotardo** implicó un proceso continuo de análisis, donde cada componente y cambio estructural se justificó para mejorar la eficiencia, la resistencia y el mantenimiento del robot.
+
+### 🔍 Optimización de Componentes y Chasis
+
+*   **Selección de componentes:** Excepto los motores, todas las piezas se eligieron tras una investigación exhaustiva de alternativas. Esto nos permitió optimizar tres factores críticos: **espacio, peso y consumo energético**.
+*   **Refuerzo estructural:** Analizando versiones anteriores, detectamos que el soporte era propenso a fracturas. **Duplicamos el grosor de secciones clave** y reforzamos los puntos críticos, aumentando la resistencia estructural sin penalizar el peso total.
+*   **Rediseño del sistema de unión (Sin pegamentos):** Reemplazamos los adhesivos químicos por **tornillería y encajes mecánicos**. Esto facilita el mantenimiento, permite sustituir piezas rápidamente y ofrece una estructura mucho más rígida y segura.
+*   **Prototipado en TinkerCAD:** Planificamos y modelamos varias piezas digitalmente antes de su fabricación. Esto nos ayudó a prever problemas de ajuste y optimizar las dimensiones, evitando el desperdicio de material y retrasos en el montaje.
+
+---
+
+### 📡 Evolución de los Sistemas Electrónicos
+
+#### 1. Reposicionamiento del Sensor Ultrasónico
+El sensor pasó de una posición fija lateral a una **completamente centrada**. 
+> [!NOTE]
+> **Resultado:** Se eliminaron los ángulos muertos frontales. Ahora el robot detecta obstáculos de manera uniforme, optimizando la precisión de la navegación autónoma.
+
+#### 2. Elección del Driver de Motores: TB6612FNG vs L298N
+Para la etapa de potencia, descartamos el clásico L298N y optamos por el **TB6612FNG** debido a las siguientes ventajas técnicas:
+
+| Característica | 🟢 TB6612FNG (Elegido) | 🔴 L298N (Descartado) |
+| :--- | :--- | :--- |
+| **Consumo Energético** | Muy bajo y eficiente | Alto (pérdidas por caída de tensión) |
+| **Tamaño / Espacio** | Ultra compacto | Voluminoso y pesado |
+| **Gestión Térmica** | Excelente tolerancia al calor | Requiere un disipador grande |
+| **Seguridad** | Sin riesgo de sobrecalentamiento | Propenso a altas temperaturas |
