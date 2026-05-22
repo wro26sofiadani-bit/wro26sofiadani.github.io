@@ -4,7 +4,7 @@ Este documento detalla el paso a paso del ensamblaje de nuestro robot, destacand
 
 ---
 
-## 🏗️ Fase 1: Estructura Base y Cerebro
+##  Fase 1: Estructura Base y Cerebro
 ### 1. La Placa Arduino
 Comenzamos con la placa de **Arduino**, el corazón del sistema. 
 * **Preparación:** Antes de fijarla, imprimimos las piezas y verificamos que no hubiera deformaciones.
@@ -19,13 +19,13 @@ Instalamos el **servo** que controla el giro.
 
 ---
 
-## ⚡ Fase 2: Alimentación y Tracción
+##  Fase 2: Alimentación y Tracción
 ### 3. Sistema de Energía
 Incorporamos las **pilas y su soporte**.
 * **Equilibrio:** Esto permitió verificar la distribución de pesos desde el inicio.
 * **Seguridad:** Aseguramos que la energía llegue correctamente tanto a Arduino como a la Raspberry Pi, manteniendo un cableado ordenado.
 
-### 4. Motores y Solución de Problemas 🛠️
+### 4. Motores y Solución de Problemas 
 Durante la instalación de los motores, detectamos que rozaban con la base.
 * **El Problema:** Los motores quedaban demasiado bajos, impidiendo el giro libre.
 * **La Solución:** Añadimos una **lámina de Lego como separador**. Esta elevación garantizó un giro sin interferencias de forma sencilla y efectiva.
@@ -37,7 +37,7 @@ Alineamos las ruedas de dirección con el eje trasero para asegurar un desplazam
 
 ---
 
-## 🧠 Fase 3: Integración de Sistemas y Sensores
+##  Fase 3: Integración de Sistemas y Sensores
 ### 6. Soporte de Raspberry Pi
 Montamos los soportes superiores y barras de fijación.
 * **Estabilidad:** Fundamental para evitar desconexiones por movimiento.
@@ -49,7 +49,7 @@ Montamos los soportes superiores y barras de fijación.
 
 ---
 
-## 🔌 Fase 4: Conectividad y Finalización
+##  Fase 4: Conectividad y Finalización
 ### 8. Gestión de Cableado
 Conectamos la **Raspberry Pi** y el **Arduino**.
 * **Dimensionamiento:** Ajustamos la longitud de los cables al tamaño del robot para evitar tensiones.
@@ -61,7 +61,7 @@ Conectamos la **cámara** y el **botón** directamente a la Raspberry Pi.
 
 ---
 
-### 👥 Créditos y Autoría
+###  Créditos y Autoría
 * **Daniel Bautista Cortijo:** Fotografías y montaje (Leotardo nacional, construcción, robot arriba, montaje ultras).
 * **Sofía Romero Luque:** Fotografías de alimentación (Pilas GIF) y motores.
 * *Licencia de imágenes: Creative Commons Zero (CC0).*
@@ -70,24 +70,24 @@ Conectamos la **cámara** y el **botón** directamente a la Raspberry Pi.
 
 ---
 
-## ❓ ¿Por qué Leotardo es así?
+##  ¿Por qué Leotardo es así?
 
 El diseño y la estructura final de **Leotardo** no fueron casualidad: el robot se construyó minuciosamente de esta manera para cumplir estrictamente con el **reglamento oficial de la competencia**. 
 
 Desde la fase de diseño en papel, el tamaño, el peso y la distribución de cada componente se calcularon para garantizar la homologación del robot sin sacrificar rendimiento.
 
-### 📋 Restricciones Técnicas Oficiales
+###  Restricciones Técnicas Oficiales
 
 A continuación se detallan las normas clave que dieron forma a nuestro robot:
 
 | Parámetro | Límite Permitido | Estado de Leotardo |
 | :--- | :--- | :--- |
-| **📏 Dimensiones** | Máx. 300 x 200 x 300 mm | **Cumple** (Optimizado) |
-| **⚖️ Peso** | Máximo 1.5 Kilogramos | **Cumple** (Ligero) |
+| ** Dimensiones** | Máx. 300 x 200 x 300 mm | **Cumple** (Optimizado) |
+| ** Peso** | Máximo 1.5 Kilogramos | **Cumple** (Ligero) |
 
 ---
 
-### 🔍 Especificaciones del Reglamento
+###  Especificaciones del Reglamento
 
 > [!NOTE]
 > **Dimensiones máximas del robot (Regla 10.1)**
@@ -103,11 +103,11 @@ Gracias a estas limitaciones, cada decisión —como la elección de materiales 
 
 ---
 
-## 📐 Diseño y Toma de Decisiones
+##  Diseño y Toma de Decisiones
 
 El desarrollo de **Leotardo** implicó un proceso continuo de análisis, donde cada componente y cambio estructural se justificó para mejorar la eficiencia, la resistencia y el mantenimiento del robot.
 
-### 🔍 Optimización de Componentes y Chasis
+###  Optimización de Componentes y Chasis
 
 *   **Selección de componentes:** Excepto los motores, todas las piezas se eligieron tras una investigación exhaustiva de alternativas. Esto nos permitió optimizar tres factores críticos: **espacio, peso y consumo energético**.
 *   **Refuerzo estructural:** Analizando versiones anteriores, detectamos que el soporte era propenso a fracturas. **Duplicamos el grosor de secciones clave** y reforzamos los puntos críticos, aumentando la resistencia estructural sin penalizar el peso total.
@@ -116,7 +116,7 @@ El desarrollo de **Leotardo** implicó un proceso continuo de análisis, donde c
 
 ---
 
-### 📡 Evolución de los Sistemas Electrónicos
+###  Evolución de los Sistemas Electrónicos
 
 #### 1. Reposicionamiento del Sensor Ultrasónico
 El sensor pasó de una posición fija lateral a una **completamente centrada**. 
