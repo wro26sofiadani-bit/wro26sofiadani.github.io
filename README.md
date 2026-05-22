@@ -7,9 +7,9 @@
 
 # 👥 ¿Quiénes somos?
 
-Somos **Soria Azzaiteros**, un equipo formado por dos estudiantes del instituto **Az-Zait de Jaén**, apasionados por la robótica, la electrónica y la programación.
+Somos **Azzaiteros C15**, un equipo formado por dos estudiantes del instituto **Az-Zait de Jaén**, apasionados por la robótica, la electrónica y la programación.
 
-Nuestro objetivo al participar en **Future Engineers 2025 (WRO)** es aprender desde cero cómo diseñar, construir y programar un vehículo autónomo aplicando principios reales de ingeniería.
+Nuestro objetivo al participar en **Future Engineers 2026 (WRO)** es aprender desde cero cómo diseñar, construir y programar un vehículo autónomo aplicando principios reales de ingeniería.
 
 ---
 
