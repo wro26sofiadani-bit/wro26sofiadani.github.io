@@ -1,1 +1,1 @@
-[![](https://img.youtube.com/vi/wugYrG8wwxs/0.jpg)](https://www.youtube.com/watch?v=wugYrG8wwxs)
+https://img.youtube.com/vi/ID_DEL_VIDEO/0.jpg)](https://www.youtube.com/watch?v=ID_DEL_VIDEO
