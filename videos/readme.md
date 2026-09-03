@@ -1,47 +1,31 @@
-<div style="text-align:center; font-family:Arial, sans-serif;">
+# 🚨 Pruebas de Evitamiento de Obstáculos — Colisión con Pared
 
-  <h2 style="font-size:28px; margin-bottom:10px;">
-    🤖 Robot con bloque verde
-  </h2>
+Durante las pruebas dinámicas del circuito, se identificó un **fallo de trayectoria** al intentar esquivar los bloques de señalización (regla WRO: 🟢 Verde a la izquierda / 🔴 Rojo a la derecha). El robot reacciona al obstáculo pero impacta posteriormente contra el límite exterior del circuito.
 
-  <p style="font-size:18px; color:#555; margin-bottom:20px;">
-    El robot detecta el bloque verde y choca con la pared.
-  </p>
+---
 
-  <div style="margin:25px auto; max-width:800px;">
+### 🟢 Caso 1: Detección de Bloque Verde
 
-    <h3 style="font-size:22px;">
-      🟢 Robot con bloque verde y choca con pared
-    </h3>
+> **Resultado:** El robot detecta la señal verde pero realiza un giro con radio excesivo, perdiendo el centro del carril y colisionando contra la pared externa.
 
-    <iframe
-      width="800"
-      height="450"
-      src="https://www.youtube.com/embed/wK5_0qYKZh0"
-      title="Robot con bloque verde"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
+[![Prueba Bloque Verde](https://img.youtube.com/vi/wK5_0qYKZh0/0.jpg)](https://www.youtube.com/watch?v=wK5_0qYKZh0)
 
-  </div>
+*🎬 Haz clic en la imagen para ver el vídeo del ensayo.*
 
-  <div style="margin:40px auto; max-width:800px;">
+---
 
-    <h3 style="font-size:22px;">
-      🔴 Robot con bloque rojo y choca
-    </h3>
+### 🔴 Caso 2: Detección de Bloque Rojo
 
-    <iframe
-      width="800"
-      height="450"
-      src="https://www.youtube.com/embed/95K2SqlpfjY"
-      title="Robot con bloque rojo"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
+> **Resultado:** El robot identifica el bloque rojo, pero la maniobra de esquiva a la derecha resulta inestable y termina colisionando con el muro del circuito.
 
-  </div>
+[![Prueba Bloque Rojo](https://img.youtube.com/vi/95K2SqlpfjY/0.jpg)](https://www.youtube.com/watch?v=95K2SqlpfjY)
 
-</div>
+*🎬 Haz clic en la imagen para ver el vídeo del ensayo.*
+
+---
+
+### 🛠 Puntos a corregir
+
+- [ ] Ajustar el PID / radio de giro tras la detección de color.
+- [ ] Recalibrar la lectura de distancia de los sensores ultrasónicos para evitar el impacto tras el esquive.
+- [ ] Revisar el umbral de detección de color en la cámara/sensor.
