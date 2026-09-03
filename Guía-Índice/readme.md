@@ -45,6 +45,7 @@ El robot debe cumplir:
   <a href="./diseño y estructura">
     <img src="https://img.shields.io/badge/diseño y estructura-Ver más pulsar aquí-blue">
   </a>
+</p>
 
 ---
 
@@ -75,12 +76,13 @@ Durante el montaje se detectaron interferencias en los motores con la base.
 Solución aplicada:
 
 - Elevación mediante separadores estructurales  
-- Reajuste de la base para evitar fricción
- 
+- Reajuste de la base para evitar fricción  
+
 <p align="center">
   <a href="./mecanica">
     <img src="https://img.shields.io/badge/mecanica-Ver más pulsar aquí-green">
   </a>
+</p>
 
 ---
 
@@ -127,6 +129,7 @@ Se utiliza el TB6612FNG en lugar del L298N debido a:
   <a href="./electronica">
     <img src="https://img.shields.io/badge/electronica-Ver más pulsar aquí-yellow">
   </a>
+</p>
 
 ---
 
@@ -155,12 +158,13 @@ El robot está programado para:
 - Calcular distancias en tiempo real  
 - Tomar decisiones de giro  
 - Mantener estabilidad en línea recta  
-- Ejecutar maniobras de esquiva
-  
+- Ejecutar maniobras de esquiva  
+
 <p align="center">
   <a href="./programacion">
     <img src="https://img.shields.io/badge/programacion-Ver más pulsar aquí-red">
   </a>
+</p>
 
 ---
 
@@ -189,6 +193,7 @@ Más allá de la competición, el proyecto ha permitido aprender:
   <a href="./conclusiones">
     <img src="https://img.shields.io/badge/conclusiones-Ver más pulsar aquí-orange">
   </a>
+</p>
 
 ---
 
