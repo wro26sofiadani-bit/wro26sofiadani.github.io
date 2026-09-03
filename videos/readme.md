@@ -1,1 +1,1 @@
-https://img.youtube.com/vi/ID_DEL_VIDEO/0.jpg)](https://www.youtube.com/watch?v=ID_DEL_VIDEO
+https://img.youtube.com/vi/wK5_0qYKZh0/0.jpg)](https://www.youtube.com/watch?v=wK5_0qYKZh0
